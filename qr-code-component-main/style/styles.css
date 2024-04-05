@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  padding: 100px;
+}
+
+.container{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.container img {
+  width: 270px;
+  border-radius: 5px;
+}
+
+.container h1 {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.container p {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 15px;
+
+}
+@media screen and (max-width: 768px) {
+  
+  .container img {
+    width:150px;
+  }
+}
